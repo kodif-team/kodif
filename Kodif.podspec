@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Kodif"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Kodif iOS sdk"
 
   # This description is used to generate tags and improve search results.
@@ -119,8 +119,8 @@ Pod::Spec.new do |spec|
   spec.dependency 'RxSwift'
   spec.dependency 'RxCocoa'
   spec.dependency 'AlamofireActivityLogger'
-  spec.dependency "Rollbar", "~> 1.4.2"
-  spec.dependency 'KustomerChat', :git => 'https://github.com/kustomer/kustomer-ios.git'
+  spec.dependency 'Rollbar', '~> 1.4.2'
+  spec.dependency 'KustomerChat'
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
