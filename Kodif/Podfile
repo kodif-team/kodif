@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Kodif' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Kodif
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'AlamofireActivityLogger'
+pod "Rollbar", "~> 1.4.2"
+pod 'KustomerChat', :git => 'https://github.com/kustomer/kustomer-ios.git'
+
+  target 'KodifTests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-Kodif-KodifTests/Pods-Kodif-KodifTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireActivityLogger/AlamofireActivityLogger.framework
+${BUILT_PRODUCTS_DIR}/PubNubSwift/PubNub.framework
+${BUILT_PRODUCTS_DIR}/Rollbar/Rollbar.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/KustomerChat/KustomerChat.framework/KustomerChat

@@ -1,0 +1,6 @@
+framework module Pods_Kodif_KodifTests {
+  umbrella header "Pods-Kodif-KodifTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

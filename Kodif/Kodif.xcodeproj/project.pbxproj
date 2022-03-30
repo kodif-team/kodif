@@ -12,6 +12,15 @@
 		7EB5861327F3006300DB7298 /* KodifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5861227F3006300DB7298 /* KodifTests.swift */; };
 		7EB5861427F3006300DB7298 /* Kodif.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB5860627F3006200DB7298 /* Kodif.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EB5861E27F300F200DB7298 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5861D27F300F200DB7298 /* Extensions.swift */; };
+		7EB5862627F30BA800DB7298 /* ApiClient in Resources */ = {isa = PBXBuildFile; fileRef = 7EB5861F27F30BA600DB7298 /* ApiClient */; };
+		7EB5862727F30BA800DB7298 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 7EB5862027F30BA600DB7298 /* Models */; };
+		7EB5862827F30BA800DB7298 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5862127F30BA600DB7298 /* ImageLoader.swift */; };
+		7EB5862927F30BA800DB7298 /* ContentView in Resources */ = {isa = PBXBuildFile; fileRef = 7EB5862227F30BA700DB7298 /* ContentView */; };
+		7EB5862A27F30BA800DB7298 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB5862327F30BA700DB7298 /* SecondView.swift */; };
+		7EB5862B27F30BA800DB7298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EB5862427F30BA700DB7298 /* Assets.xcassets */; };
+		7EB5862C27F30BA800DB7298 /* views in Resources */ = {isa = PBXBuildFile; fileRef = 7EB5862527F30BA800DB7298 /* views */; };
+		8FE58F1869038545334E4B5C /* Pods_Kodif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B715E53A40985953AFEB1018 /* Pods_Kodif.framework */; };
+		C734EC5BE9EFF8960D73C4BC /* Pods_Kodif_KodifTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D040362B8ECA76178C8C4E /* Pods_Kodif_KodifTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,12 +34,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A576A5A7C0F2AF4C00BA64B /* Pods-Kodif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kodif.release.xcconfig"; path = "Target Support Files/Pods-Kodif/Pods-Kodif.release.xcconfig"; sourceTree = "<group>"; };
+		45A7420E0C236FD9ABA7077C /* Pods-Kodif-KodifTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kodif-KodifTests.debug.xcconfig"; path = "Target Support Files/Pods-Kodif-KodifTests/Pods-Kodif-KodifTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7EB5860327F3006200DB7298 /* Kodif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kodif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB5860627F3006200DB7298 /* Kodif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kodif.h; sourceTree = "<group>"; };
 		7EB5860727F3006200DB7298 /* Kodif.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Kodif.docc; sourceTree = "<group>"; };
 		7EB5860D27F3006300DB7298 /* KodifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KodifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB5861227F3006300DB7298 /* KodifTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KodifTests.swift; sourceTree = "<group>"; };
 		7EB5861D27F300F200DB7298 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7EB5861F27F30BA600DB7298 /* ApiClient */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ApiClient; sourceTree = "<group>"; };
+		7EB5862027F30BA600DB7298 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		7EB5862127F30BA600DB7298 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		7EB5862227F30BA700DB7298 /* ContentView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ContentView; sourceTree = "<group>"; };
+		7EB5862327F30BA700DB7298 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		7EB5862427F30BA700DB7298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EB5862527F30BA800DB7298 /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = views; sourceTree = "<group>"; };
+		B1D040362B8ECA76178C8C4E /* Pods_Kodif_KodifTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kodif_KodifTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B715E53A40985953AFEB1018 /* Pods_Kodif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kodif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07DDEC09445A04107334420 /* Pods-Kodif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kodif.debug.xcconfig"; path = "Target Support Files/Pods-Kodif/Pods-Kodif.debug.xcconfig"; sourceTree = "<group>"; };
+		CA85602EFD03ED0B9E8BC6B1 /* Pods-Kodif-KodifTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kodif-KodifTests.release.xcconfig"; path = "Target Support Files/Pods-Kodif-KodifTests/Pods-Kodif-KodifTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE58F1869038545334E4B5C /* Pods_Kodif.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +69,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EB5860E27F3006300DB7298 /* Kodif.framework in Frameworks */,
+				C734EC5BE9EFF8960D73C4BC /* Pods_Kodif_KodifTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E3B372C33E267C515AF4D2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C07DDEC09445A04107334420 /* Pods-Kodif.debug.xcconfig */,
+				0A576A5A7C0F2AF4C00BA64B /* Pods-Kodif.release.xcconfig */,
+				45A7420E0C236FD9ABA7077C /* Pods-Kodif-KodifTests.debug.xcconfig */,
+				CA85602EFD03ED0B9E8BC6B1 /* Pods-Kodif-KodifTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7EB585F927F3006200DB7298 = {
 			isa = PBXGroup;
 			children = (
 				7EB5860527F3006200DB7298 /* Kodif */,
 				7EB5861127F3006300DB7298 /* KodifTests */,
 				7EB5860427F3006200DB7298 /* Products */,
+				6E3B372C33E267C515AF4D2E /* Pods */,
+				D2EF40A75D9CC0B47891ADE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +112,13 @@
 			children = (
 				7EB5860627F3006200DB7298 /* Kodif.h */,
 				7EB5861D27F300F200DB7298 /* Extensions.swift */,
+				7EB5861F27F30BA600DB7298 /* ApiClient */,
+				7EB5862427F30BA700DB7298 /* Assets.xcassets */,
+				7EB5862227F30BA700DB7298 /* ContentView */,
+				7EB5862127F30BA600DB7298 /* ImageLoader.swift */,
+				7EB5862027F30BA600DB7298 /* Models */,
+				7EB5862327F30BA700DB7298 /* SecondView.swift */,
+				7EB5862527F30BA800DB7298 /* views */,
 				7EB5860727F3006200DB7298 /* Kodif.docc */,
 			);
 			path = Kodif;
@@ -86,6 +130,15 @@
 				7EB5861227F3006300DB7298 /* KodifTests.swift */,
 			);
 			path = KodifTests;
+			sourceTree = "<group>";
+		};
+		D2EF40A75D9CC0B47891ADE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B715E53A40985953AFEB1018 /* Pods_Kodif.framework */,
+				B1D040362B8ECA76178C8C4E /* Pods_Kodif_KodifTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EB5861727F3006300DB7298 /* Build configuration list for PBXNativeTarget "Kodif" */;
 			buildPhases = (
+				4A75566277B52E730908E755 /* [CP] Check Pods Manifest.lock */,
 				7EB585FE27F3006200DB7298 /* Headers */,
 				7EB585FF27F3006200DB7298 /* Sources */,
 				7EB5860027F3006200DB7298 /* Frameworks */,
@@ -124,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EB5861A27F3006300DB7298 /* Build configuration list for PBXNativeTarget "KodifTests" */;
 			buildPhases = (
+				145BAF536640BD83F683FB33 /* [CP] Check Pods Manifest.lock */,
 				7EB5860927F3006300DB7298 /* Sources */,
 				7EB5860A27F3006300DB7298 /* Frameworks */,
 				7EB5860B27F3006300DB7298 /* Resources */,
+				38BB098D5A1F5B6FC20E55CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB5862C27F30BA800DB7298 /* views in Resources */,
+				7EB5862927F30BA800DB7298 /* ContentView in Resources */,
+				7EB5862727F30BA800DB7298 /* Models in Resources */,
+				7EB5862B27F30BA800DB7298 /* Assets.xcassets in Resources */,
+				7EB5862627F30BA800DB7298 /* ApiClient in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +253,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		145BAF536640BD83F683FB33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kodif-KodifTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38BB098D5A1F5B6FC20E55CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kodif-KodifTests/Pods-Kodif-KodifTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kodif-KodifTests/Pods-Kodif-KodifTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kodif-KodifTests/Pods-Kodif-KodifTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A75566277B52E730908E755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kodif-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EB585FF27F3006200DB7298 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -199,6 +324,8 @@
 			files = (
 				7EB5860827F3006200DB7298 /* Kodif.docc in Sources */,
 				7EB5861E27F300F200DB7298 /* Extensions.swift in Sources */,
+				7EB5862A27F30BA800DB7298 /* SecondView.swift in Sources */,
+				7EB5862827F30BA800DB7298 /* ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,10 +470,12 @@
 		};
 		7EB5861827F3006300DB7298 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07DDEC09445A04107334420 /* Pods-Kodif.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = Kodif/Assets.xcassets;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -359,7 +488,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.Kodif;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kodif.ios;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -370,10 +499,12 @@
 		};
 		7EB5861927F3006300DB7298 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A576A5A7C0F2AF4C00BA64B /* Pods-Kodif.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = Kodif/Assets.xcassets;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -386,7 +517,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.Kodif;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kodif.ios;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -397,6 +528,7 @@
 		};
 		7EB5861B27F3006300DB7298 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A7420E0C236FD9ABA7077C /* Pods-Kodif-KodifTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -413,6 +545,7 @@
 		};
 		7EB5861C27F3006300DB7298 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA85602EFD03ED0B9E8BC6B1 /* Pods-Kodif-KodifTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

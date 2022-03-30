@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireActivityLogger (2.5.0):
+    - Alamofire (~> 4.7)
+  - KustomerChat (2.6.0):
+    - PubNubSwift (~> 5.0.0)
+  - PubNubSwift (5.0.1)
+  - Rollbar (1.4.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - AlamofireActivityLogger
+  - KustomerChat (from `https://github.com/kustomer/kustomer-ios.git`)
+  - Rollbar (~> 1.4.2)
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireActivityLogger
+    - PubNubSwift
+    - Rollbar
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  KustomerChat:
+    :git: https://github.com/kustomer/kustomer-ios.git
+
+CHECKOUT OPTIONS:
+  KustomerChat:
+    :commit: 21bd2becb863557f12926d5d79b03d7cd3aa36eb
+    :git: https://github.com/kustomer/kustomer-ios.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireActivityLogger: 4dbb52cbd9a26590775df5d4d0284fa81f9b9b5b
+  KustomerChat: 597e68101106a7c4430ff8185b3fd9a7135255ec
+  PubNubSwift: e93b4846bb925ad2c3f0976ef1ae50b9d4601407
+  Rollbar: 97bdc0b5ded953eafa07e8ba900f42ec0ade2f79
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: bb2aa80a8996641b15f090ed9ad71aff6fab31d8
+
+COCOAPODS: 1.11.3
