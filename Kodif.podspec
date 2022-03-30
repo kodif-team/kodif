@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Kodif"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Kodif iOS sdk"
 
   # This description is used to generate tags and improve search results.
@@ -104,7 +104,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "Assets.xcassets/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -115,7 +115,12 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "SwiftUI"
+  spec.dependency 'RxSwift'
+  spec.dependency 'RxCocoa'
+  spec.dependency 'AlamofireActivityLogger'
+  spec.dependency "Rollbar", "~> 1.4.2"
+  spec.dependency 'KustomerChat', :git => 'https://github.com/kustomer/kustomer-ios.git'
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
