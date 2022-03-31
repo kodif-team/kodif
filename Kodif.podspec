@@ -115,14 +115,12 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.framework  = "SwiftUI"
-  spec.framework  = "UIKit"
   spec.dependency 'RxSwift'
   spec.dependency 'RxCocoa'
   spec.dependency 'AlamofireActivityLogger'
   spec.dependency 'Rollbar', '~> 1.4.2'
   spec.dependency 'KustomerChat'
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = "SwiftUI", "UIKit"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
