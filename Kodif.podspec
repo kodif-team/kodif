@@ -116,6 +116,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.framework  = "SwiftUI"
+  spec.framework  = "UIKit"
   spec.dependency 'RxSwift'
   spec.dependency 'RxCocoa'
   spec.dependency 'AlamofireActivityLogger'
